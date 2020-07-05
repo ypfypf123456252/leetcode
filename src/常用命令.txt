@@ -1,0 +1,13 @@
+Docker:
+    安装:
+        1.查看Centos内核版本必须是3.0及以上(): uname -r
+        2.升级软件包及内核: yum update
+        3.安装Docker: yum install docker
+        4.启动docker:  systemctl start docker
+        5.查看docker版本号: docker -v
+        6.docker开机启动: systemctl enable docker
+        7.停止docker: systemctl stop docker
+    拉取:
+        1.docker search 镜像 查询
+        2.docker pull 镜像:版本号 下载
+        3.docker rmi 镜像id  删除镜像
